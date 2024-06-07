@@ -84,6 +84,13 @@
                                     <action selector="getRatesClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Qfd-lM-pjH"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Check on:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ADr-I6-pYj">
+                                <rect key="frame" x="31" y="657" width="331" height="64"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -120,6 +127,7 @@
                         <outlet property="brlLabel" destination="Iap-W6-hgT" id="11d-fa-MOm"/>
                         <outlet property="cadLabel" destination="Djc-aR-fVA" id="0Qt-9V-T44"/>
                         <outlet property="chfLabel" destination="PhB-wh-ECj" id="m7O-d0-Wqw"/>
+                        <outlet property="dateLabel" destination="ADr-I6-pYj" id="Cuu-g9-JLH"/>
                         <outlet property="jpyLabel" destination="BWT-zL-AFg" id="EZz-MT-fTr"/>
                         <outlet property="tryLabel" destination="PyW-je-qu5" id="e55-Vr-ebs"/>
                         <outlet property="usdLabel" destination="cjs-sX-TXM" id="jJi-22-tG2"/>
